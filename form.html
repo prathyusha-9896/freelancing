@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+    <link  href="style.css" rel="stylesheet">
+</head>
+<body class="regis">
+    <header>
+        <div class="desktop">
+			<div class="logo">
+				<img width="30px" src="resources/images/logos/logo.jfif"> <span>Freelancing</span>
+			</div>
+			<nav>
+				<ul>
+                    <li>
+						<a href="index.html" style="text-decoration: none;">Home</a>
+					</li>
+					<li>
+						<a href="createprofile.html" style="text-decoration: none;">Become a Seller</a>
+					</li>
+					<li>
+						<a href="#" style="text-decoration: none;">Sign up</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+    </header>
+    <h1 class="head">REGISTRATION FORM</h1>
+        <h5><em>Register here to showcase your works</em></h5>
+        <br>
+        <br>
+        <input class="ss" type=text placeholder="enter your feedback" id="feedback">
+        <br>
+        <br>
+        <input class="ss1" type=text placeholder="enter your mail" id="mail">
+        <br>
+        <br>
+        <input class="ss2" type=text placeholder="enter your name" id="name">
+        <br>
+        <br>
+        <input class="ss3" type="password" placeholder="enter your password" id="password" >
+        <br>
+        <br>
+        <input class="ss4" type=text placeholder="enter your phonenumber" id="phonenumber">
+        <br>
+        <br>
+        <button id="button" >submit</button>
+        <br>
+        <br>
+        <button id="get" onclick="refresh">Refresh</button>
+
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border" 
+                 role="status" id="loading">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+
+        <!--<h1>Registered names</h1>-->
+        <!-- table for showing data -->
+        <table id="names"></table>
+    <script src="./form.js"></script>
+</body>
+</html>

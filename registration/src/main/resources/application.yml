@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: Praharshi#1615
+    url: jdbc:mysql://localhost:3306/registrations
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+show-sql: true

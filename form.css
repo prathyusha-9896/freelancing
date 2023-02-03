@@ -1,0 +1,44 @@
+.regis{
+    text-align: center;
+    border-radius: 10px black;
+    background-image: url(images/bg8.jpg);
+}
+.ss , .ss1 ,.ss2 , .ss3  {
+    border-radius: 10px;
+    background-color: azure ;
+    color: black;
+}
+.ss , .ss1 ,.ss2 , .ss3 :hover {
+    background-color: skyblue;
+    color: black;
+}
+.ss4{
+   border-radius: 5px; 
+   background-color: aquamarine;
+   color: black;
+}
+.ss4 :hover{
+    background-color: black;
+   color: green;
+}
+.logo{
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.end{
+	padding: 20px 15%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+	background-color: beige;
+}
+.top i{
+	padding: 10px;
+	border-radius: 8px;
+	font-size: 15px;
+	color:  #fff;
+	background-color: #32cd32;
+}
